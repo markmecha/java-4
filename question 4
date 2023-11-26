@@ -1,0 +1,26 @@
+public class MyClass {
+
+    public void nonStaticMethod() {
+        System.out.println("This is mark mecha");
+    }
+
+    public static void staticMethod1() {
+        System.out.println("I study java programming");
+    }
+
+    public static void staticMethod2() {
+        System.out.println("This is stage four");
+    }
+    public MyClass() {
+        System.out.println("Hello");
+    }
+
+    public static void main(String[] args) {
+        MyClass myClassObject = new MyClass();
+
+        myClassObject.nonStaticMethod();
+
+        staticMethod1();
+        staticMethod2();
+    }
+}
